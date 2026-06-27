@@ -1,0 +1,6 @@
+{
+  "name": "Shiva Skill Institute",
+  "description": "A premium, elite educational website representing world-class training, expert-led programs, and professional career acceleration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

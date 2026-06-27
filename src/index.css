@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-secondary: "Geist", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-primary: #102A43; /* Deep Navy */
+  --color-primary-light: #243B53;
+  --color-accent: #2563EB; /* Vibrant Blue Accent */
+  --color-accent-light: #3B82F6;
+  --color-success: #16A34A;
+  --color-secondary-bg: #F8FAFC;
+  --color-text: #1F2937;
+  --color-muted-text: #64748B;
+}
+
+/* Custom styles for smooth academic feel */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #FFFFFF;
+  color: #1F2937;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: #102A43;
+}
+
+/* Custom styles */
+.academic-border {
+  border-color: rgba(16, 42, 67, 0.08);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Custom scrollbar to keep it clean */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CBD5E1;
+}
+
